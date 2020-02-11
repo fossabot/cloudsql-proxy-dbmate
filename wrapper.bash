@@ -13,5 +13,7 @@ cloud_sql_proxy -instances=${connection_name}=tcp:3306 &
 
 sleep 1
 
+cd /workspace
+
 echo "Running: dbmate $@"
 dbmate wait && dbmate "$@"
