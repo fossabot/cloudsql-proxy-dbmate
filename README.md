@@ -1,6 +1,6 @@
 # securenomad/cloudsql-proxy-dbmate
 
-An image that runs cloudsql-proxy that lets dbmate connect to your SQL instance. This should be used with Google Cloud Build but may work on other build systems with appropriate access.
+An image that runs cloudsql-proxy and lets [amacneil/dbmate](https://github.com/amacneil/dbmate) connect to your SQL instance. This should be used with Google Cloud Build but may work on other build systems with appropriate access.
 
 ## How to use
 
